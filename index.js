@@ -35,7 +35,9 @@ var Module = function (bot) {
     for(i=1; i<splittedText.length ; i++){
       response += splittedText[i];
     }
+    console.log("RESPONSE", response);
     var realResponse = response.split("|").join("\n"," ");
+    console.log("REALRESPONSE", realResponse);
     bot.postMessage(channel, question + realResponse);
   };
 
