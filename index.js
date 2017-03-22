@@ -55,6 +55,7 @@ var Module = function (bot) {
         }
       }, 120000);
       setTimeout(function(){
+        var message;
         for (i = 1; i < splittedText.length; i++) {
           message += "|" + i + "." + splittedText[i] + " ==> (" + number[i-1] + ") votes";
         }
