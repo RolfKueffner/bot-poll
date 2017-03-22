@@ -1,26 +1,81 @@
 {
-  "name": "bot-example",
-  "version": "1.2.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "publish": "npm version minor && git push && git push --tags",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "RolfKueffner/bot-poll",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "RolfKueffner/bot-poll",
+        "spec": "github:rolfkueffner/bot-poll",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:rolfkueffner/bot-poll.git",
+          "sshUrl": "git+ssh://git@github.com/rolfkueffner/bot-poll.git",
+          "httpsUrl": "git+https://github.com/rolfkueffner/bot-poll.git",
+          "gitUrl": "git://github.com/rolfkueffner/bot-poll.git",
+          "shortcut": "github:rolfkueffner/bot-poll",
+          "directUrl": "https://raw.githubusercontent.com/rolfkueffner/bot-poll/master/package.json"
+        }
+      },
+      "C:\\Users\\guestabilita\\WebstormProjects\\SlackBot"
+    ]
+  ],
+  "_from": "rolfkueffner/bot-poll",
+  "_id": "bot-poll@1.0.0",
+  "_inCache": true,
+  "_location": "/bot-poll",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "RolfKueffner/bot-poll",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "RolfKueffner/bot-poll",
+    "spec": "github:rolfkueffner/bot-poll",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:rolfkueffner/bot-poll.git",
+      "sshUrl": "git+ssh://git@github.com/rolfkueffner/bot-poll.git",
+      "httpsUrl": "git+https://github.com/rolfkueffner/bot-poll.git",
+      "gitUrl": "git://github.com/rolfkueffner/bot-poll.git",
+      "shortcut": "github:rolfkueffner/bot-poll",
+      "directUrl": "https://raw.githubusercontent.com/rolfkueffner/bot-poll/master/package.json"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/contactimpact/bot-example.git"
-  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git://github.com/rolfkueffner/bot-poll.git#0a8b2a1378f5e6e9dba27566d5109cda46521b9c",
+  "_shasum": "901861e37ae80197b48b76129aff220110bc0294",
+  "_shrinkwrap": null,
+  "_spec": "RolfKueffner/bot-poll",
+  "_where": "C:\\Users\\guestabilita\\WebstormProjects\\SlackBot",
   "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/contactimpact/bot-example/issues"
+    "url": "https://github.com/contactimpact/bot-poll/issues"
   },
-  "homepage": "https://github.com/contactimpact/bot-example#readme",
   "dependencies": {
     "lodash": "^4.17.4"
   },
-  "commands": {
-    "example": "Says hello"
-  }
+  "description": "See code, its izi.",
+  "devDependencies": {},
+  "gitHead": "0a8b2a1378f5e6e9dba27566d5109cda46521b9c",
+  "homepage": "https://github.com/contactimpact/bot-poll#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bot-poll",
+  "optionalDependencies": {},
+  "readme": "# Bot Example Plugin\r\n\r\nSee code, its izi.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contactimpact/bot-poll.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
