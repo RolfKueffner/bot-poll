@@ -30,7 +30,7 @@ var Module = function (bot) {
   this.commands.poll = function(channel, args, user) {
     var splittedText = args.split("|");
     var question = splittedText[0];
-    var response;
+    var response = "";
 
     for(i=1; i<splittedText.length ; i++){
       response += splittedText[i];
